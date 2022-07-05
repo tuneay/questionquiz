@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+
+.soru-1{
+    text-align: center;
+}
+.liste{
+    list-style-type:none; 
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.paragraph{
+    float: right;
+    text-align: center;
+}
+.soru-1 h2{
+    display: none;
+    color: rgb(20, 231, 1);
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+}
+.liste button {
+    padding: 6px;
+    margin: 10px;
+    border-radius: 6px;
+    transition: .4s;
+    border: 1px solid black;
+}
+.liste button:hover{
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+    transform: scale(1.1);
+}
+.soru-1 h3{
+    letter-spacing: 1px;
+    font-family: 'Bangers', cursive;
+}
+.soru-1{
+    padding: 3px;
+    color: rgb(24, 22, 22);
+    background-color: #FAEA48;
+    position: relative;
+    margin: auto;
+    width: 800px;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: .5s;
+    animation-name: example;
+    animation-duration: 1s;
+}
+.adverst{
+    float: left;
+    border: 2px solid black;
+    font-family: 'Poppins';
+    text-align: center;
+    height:600px;
+    border-radius: 5px;
+    width: 255px;
+    background-color: #FAEA48;
+}
+.adverst span{
+    color: black;
+    letter-spacing: 1px;
+}
+.adverst i{
+    font-size: 50px;
+    transition: .5s;
+}
+.adverst i:hover{
+    color: rgb(73, 73, 73);
+}
+/* sağ reklam*/
+.adversts{
+    float: right;
+    border: 2px solid black;
+    font-family: 'Poppins';
+    text-align: center;
+    height:600px;
+    border-radius: 5px;
+    width: 255px;
+    background-color: #FAEA48;
+}
+.adversts span{
+    color: black;
+    letter-spacing: 1px;
+}
+.adversts i{
+    font-size: 50px;
+    transition: .5s;
+}
+.adversts i:hover{
+    color: rgb(73, 73, 73);
+}
+@keyframes example {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+  }
+@media only screen and (max-width: 800px) {
+    .soru-1{width: 600px;}    
+}
+
+@media only screen and (max-width: 600px) {
+    .soru-1{width: 400px;}
+    .soru-1{
+        padding: 10px;
+        border-radius: 8px;
+        font-size: small;
+    }    
+}
+@media only screen and (max-width: 1300px){
+    .adverst{
+        width: 180px;
+    }
+    .soru-1{
+        width: 700px;
+    }
+}
+@media only screen and (max-width : 1300px){
+    .adversts{
+        width: 180px;
+    }
+}
+@media only screen and (max-width : 1060px){
+    .soru-1{
+        width: 650px;
+    }
+}
+@media only screen and (max-width : 1040px){
+    .soru-1{
+        width: 620px;
+    }
+}
+
+@media only screen and (max-width : 900px){
+    .soru-1{
+        width: 460px;
+    }
+}
